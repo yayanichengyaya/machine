@@ -2,11 +2,13 @@
 ---
 
 ## 目录
+
 1. [性能情况 Performance](#性能情况)
 2. [所需环境 Environment](#所需环境)
 3. [训练步骤 How to train](#训练步骤)
-4. [预测步骤 How2predict](#预测步骤)
-5. [参考资料 Reference](#Reference)
+4. [预测步骤 How to predict](#预测步骤)
+5. [实验结果简介 results](#实验结果简介)
+6. [参考资料 Reference](#Reference)
 
 
 ## 性能情况
@@ -86,13 +88,14 @@ _defaults = {
     "cuda"              : False,
 }
 ```
-3. 运行predict.py，输入  
+3. 运行predict.py，输入需预测图片的地址，例如：  
 ```python
 img/street.jpg
 ```
 另外可以在predict.py里面进行设置可以进行fps测试和video视频检测。  
 
-
+## 实验结果简介
+笔者首先利用官网的VOC数据集进行训练，达到了很好的效果。后利用gazebo的仿真环境进行了数据集制作，得到了一批较为特殊的数据集，进行车辆识别训练，同样可以识别并且得到了较好的结果。具体实验结果见报告。
 
 ## Reference
 https://github.com/qqwweee/pytorch-yolo3  
