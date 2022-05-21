@@ -90,7 +90,7 @@ _defaults = {
 ```python
 img/street.jpg
 ```
-4. 在predict.py里面进行设置可以进行fps测试和video视频检测。  
+另外可以在predict.py里面进行设置可以进行fps测试和video视频检测。  
 
 
 
