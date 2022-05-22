@@ -8,7 +8,7 @@
 3. [训练步骤 How to train](#训练步骤)
 4. [预测步骤 How to predict](#预测步骤)
 5. [实验结果简介 results](#实验结果简介)
-6. [参考资料 Reference](#Reference)
+6. [参考资料 Reference](#参考资料)
 
 
 ## 性能情况
@@ -20,7 +20,6 @@
 torch == 1.2.0  
 
 ## 训练步骤
-### a、训练数据集
 1. 数据集的准备   
 **使用VOC格式进行训练，训练前需要将VOC的数据集放在根目录**  
 将标签文件放在VOCdevkit文件夹下的VOC2007文件夹下的Annotation中。   
@@ -97,7 +96,7 @@ img/street.jpg
 ## 实验结果简介
 笔者首先利用官网的VOC数据集进行训练，达到了很好的效果。后利用gazebo的仿真环境进行了数据集制作，得到了一批较为特殊的数据集，进行车辆识别训练，同样可以识别并且得到了较好的结果。具体实验结果见报告。
 
-## Reference
+## 参考资料
 https://github.com/qqwweee/pytorch-yolo3  
 https://github.com/eriklindernoren/PyTorch-YOLOv3   
 https://github.com/BobLiu20/YOLOv3_PyTorch
